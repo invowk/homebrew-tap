@@ -3,7 +3,7 @@ cask "invowk" do
   name "invowk"
   desc "A dynamically extensible command runner"
   homepage "https://invowk.dev"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "invowk" do
   on_macos do
     on_intel do
       url "https://github.com/invowk/invowk/releases/download/v#{version}/invowk_#{version}_darwin_amd64.tar.gz"
-      sha256 "e4b0663f1e97e1611efa5deb6b1dcdf07dd88a76cfd255d7ae0bcea6140bbc05"
+      sha256 "651719488eb2ff3db615f2b00d3c81f172bec6b67f91629f6444ce46780a9168"
     end
     on_arm do
       url "https://github.com/invowk/invowk/releases/download/v#{version}/invowk_#{version}_darwin_arm64.tar.gz"
-      sha256 "aa97cf5b19a0898c64c679b42799e3aef2747fa507899aa5c6ce14033bed72cb"
+      sha256 "3fec655c4d5641d86b795228ce26ed2d27b58647a9dc95b0b4261815058e0412"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/invowk/invowk/releases/download/v#{version}/invowk_#{version}_linux_amd64.tar.gz"
-      sha256 "88760bd2bc522cb39de12af59672d74cb9f63b6ef7c804c43486a67727a7d45e"
+      sha256 "9a3f861b073a039e706e8c20bc2a4415ba686e4c1df86b8bf5ea4289f4a2f51a"
     end
     on_arm do
       url "https://github.com/invowk/invowk/releases/download/v#{version}/invowk_#{version}_linux_arm64.tar.gz"
-      sha256 "d91d052b371334cf2c13691543e15200b5196c6337e63f8761492e25259a2160"
+      sha256 "fc4e05d01b2f19636f35df6b8125f0de8cf69d7caf3993e600c907bfc50e5f71"
     end
   end
 
